@@ -13,40 +13,54 @@ RUN apt-get update \
     dpatch \
     libapache2-mod-php \
     libarchive-zip-perl \
+    libav-tools \
     libavcodec-dev \
     libavdevice-dev \
     libavfilter-dev \
     libavformat-dev \
     libavresample-dev \
-    libav-tools \
     libavutil-dev \
     libbz2-dev \
+    libclass-std-fast-perl \
     libcurl4-openssl-dev \
+    libdata-dump-perl \
+    libdata-uuid-perl \
     libdate-manip-perl \
     libdbd-mysql-perl \
     libdbi-perl \
     libdevice-serialport-perl \
+    libdigest-sha-perl \
+    libimage-info-perl \
+    libio-socket-multicast-perl \
     libjpeg-turbo8 \
     libjpeg-turbo8-dev \
+    libjson-any-perl \
     libmime-lite-perl \
     libmime-perl \
+    libmime-tools-perl \
+    libmodule-load-conditional-perl \
     libmp4v2-dev \
     libmysqlclient-dev \
+    libnet-sftp-foreign-perl \
     libnetpbm10-dev \
     libpcre3 \
     libpcre3-dev \
+    libphp-serialization-perl \
     libpolkit-gobject-1-dev \
     libpostproc-dev \
+    libsoap-wsdl-perl \
     libssl-dev \
     libswscale-dev \
-    libsys-mmap-perl \
+    libsys-cpu-perl libsys-meminfo-perl \
+    libsys-mmap-perl [!hurd-any] \
     libtheora-dev \
     libtool \
+    liburi-encode-perl \
     libv4l-dev \
-    libvlc5 \
-    libvlccore8 \
-    libvlccore-dev \
     libvlc-dev \
+    libvlc5 \
+    libvlccore-dev \
+    libvlccore8 \
     libvorbis-dev \
     libvpx-dev \
     libwww-perl \
@@ -55,10 +69,10 @@ RUN apt-get update \
     mysql-server \
     perl-modules \
     php \
-    php-cli \
-    php-mysql \
-    php-gd \
     php-apcu \
+    php-cli \
+    php-gd \
+    php-mysql \
     vlc-data \
     yasm \
     zip \
