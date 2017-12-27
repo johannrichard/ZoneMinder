@@ -52,7 +52,7 @@ RUN apt-get update \
     libssl-dev \
     libswscale-dev \
     libsys-cpu-perl libsys-meminfo-perl \
-    libsys-mmap-perl [!hurd-any] \
+    libsys-mmap-perl \
     libtheora-dev \
     libtool \
     liburi-encode-perl \
