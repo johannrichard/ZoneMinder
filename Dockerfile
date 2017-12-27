@@ -80,9 +80,10 @@ RUN apt-get update \
     zip \
 	&& rm -rf /var/lib/apt/lists/*
 
-# Build and enable APCU
+# Build and enable APCU BC (Beta)
 RUN yes "" | pecl install apcu_bc-beta
-RUN cat utils/docker/apcu-beta.ini >> /etc/php/7.0/apache2/php.ini
+COPY utils/docker/apcu-beta.ini /tmp/
+RUN cat /tmp/apcu-beta.ini >> /etc/php/7.0/apache2/php.ini && rm /tmp/apcu-beta.ini
 
 # Copy local code into our container
 ADD cmake /ZoneMinder/cmake/
