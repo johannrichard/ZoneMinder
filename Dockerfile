@@ -69,6 +69,7 @@ RUN apt-get update \
     mysql-server \
     perl-modules \
     php \
+    php-apcu \
     php-cli \
     php-gd \
     php-mysql \
