@@ -53,9 +53,12 @@ RUN apt-get update \
     libx264-dev \
     mysql-client \
     mysql-server \
+    perl-modules \
     php \
     php-cli \
     php-mysql \
+    php-gd \
+    php-apcu \
     vlc-data \
     yasm \
     zip \
