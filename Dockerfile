@@ -69,15 +69,18 @@ RUN apt-get update \
     mysql-server \
     perl-modules \
     php \
-    php-apcu \
     php-cli \
     php-gd \
     php-mysql \
+    php-dev \
     php-pear \
     vlc-data \
     yasm \
     zip \
 	&& rm -rf /var/lib/apt/lists/*
+
+# Build and enable APCU
+RUN yes "" | pecl install apcu_bc-beta
 
 # Copy local code into our container
 ADD cmake /ZoneMinder/cmake/
