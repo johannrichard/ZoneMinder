@@ -70,7 +70,6 @@ RUN apt-get update \
     perl-modules \
     php \
     php-apcu \
-    php-apcu-bc \
     php-cli \
     php-gd \
     php-mysql \
