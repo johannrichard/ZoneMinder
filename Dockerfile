@@ -73,6 +73,7 @@ RUN apt-get update \
     php-cli \
     php-gd \
     php-mysql \
+    php-pear \
     vlc-data \
     yasm \
     zip \
